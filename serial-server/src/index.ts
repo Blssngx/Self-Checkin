@@ -1,6 +1,7 @@
 import express, { Request, Response } from "express";
 import { SerialPort } from "serialport";
 import { ReadlineParser } from "@serialport/parser-readline";
+import { serialPortPath } from "./config";
 
 const app = express();
 app.use(express.json());
@@ -8,7 +9,7 @@ app.use(express.json());
 // 1) Open the serial port once
 const port = new SerialPort(
   {
-    path: "/dev/cu.usbmodem1201",
+    path: serialPortPath,
     baudRate: 9600,
     dataBits: 8,
     parity: "none",
