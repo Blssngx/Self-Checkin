@@ -1,5 +1,7 @@
 # Self-Checkin 🔐🚪
 
+![Header Image](./assets/header.png)
+
 Self-Checkin is a privacy-preserving, IoT-enabled access control system that uses [Self.xyz](https://self.xyz) zero-knowledge proofs to verify a user's identity or attributes (like age or nationality) before granting physical access via a connected Arduino-controlled lock system.
 
 ---
@@ -8,7 +10,7 @@ Self-Checkin is a privacy-preserving, IoT-enabled access control system that use
 
 ```
 self-checkin/
-├── nextjs-app/          # Next.js project for QR display and Self.xyz verification
+├── client-app/          # Next.js project for QR display and Self.xyz verification
 ├── serial-server/       # Microserver that bridges HTTP requests to Arduino via serial
 └── arduino-code/        # Arduino sketch for LED and relay control
 ```
@@ -29,11 +31,13 @@ self-checkin/
 
 ---
 
-## 🖼️ System Architecture Diagram
+## 🧱 System Architecture Diagram
 
-> 📌 _Add diagram here (Mermaid or SVG showing user > QR > Self App > Next.js > Serial Server > Arduino > Lock)_
+![Header Image](./assets/system-architecture.png)
 
----
+## 🔁 Sequence Diagram
+
+## ![Header Image](./assets/sequence-diagram.png)
 
 ## 📲 Use Cases
 
