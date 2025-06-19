@@ -6,6 +6,14 @@ Self-Checkin is a privacy-preserving, IoT-enabled access control system that use
 
 ---
 
+## 🎥 Demo Video
+
+[![Watch the demo](https://img.youtube.com/vi/znKaBHwQMwc/maxresdefault.jpg)](https://www.youtube.com/watch?v=znKaBHwQMwc)
+
+> 🧪 See Self-Checkin in action: scan a QR, prove your age or identity, and trigger physical access via ZK + Arduino.
+
+---
+
 ## 📁 Repository Structure
 
 ```
